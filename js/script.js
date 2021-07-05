@@ -4,7 +4,7 @@ $ (document).ready(function (){
         $('.loader-body').fadeOut(1000);
     }
     $(window).on('load',function (){
-            setTimeout(myLoader , 1500)
+            setTimeout(myLoader , 500);
     })
     // small screen navbar
     $('.clone-nav').clone().appendTo('.small-list-navbar');
